@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/my/index",
+    "pages/timeline/index",
+    "pages/start/start",
+    "pages/shop/select",
+    "pages/index/index",
+    "pages/notice/index",
+    "pages/notice/show",
+    "pages/category/category",
+    "pages/goods/list",
+    "pages/goods-details/index",
+    "pages/shop-cart/index",
+    "pages/to-pay-order/index",
+    "pages/select-address/index",
+    "pages/address-add/index",
+    "pages/order-list/index",
+    "pages/order-details/index",
+    "pages/order/refundApply",
+    "pages/wuliu/index",
+    "pages/recharge/index",
+    "pages/withdraw/index",
+    "pages/score-excharge/index",
+    "pages/score-excharge/growth",
+    "pages/asset/index",
+    "pages/score/index",
+    "pages/score/growth",
+    "pages/sign/index",
+    "pages/maidan/index",
+    "pages/fx/apply",
+    "pages/fx/apply-status",
+    "pages/fx/members",
+    "pages/fx/commisionLog",
+    "pages/coupons/index",
+    "pages/invoice/list",
+    "pages/invoice/apply",
+    "pages/deposit/pay"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": 50
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取离你最近的门店"
+    }
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wxe37d6b81cce73b18"
+  ],
+  "plugins": {
+    "wxparse": {
+      "version": "1.0.10",
+      "provider": "wx5d60c080635009b1"
+    }
+  },
+  "usingComponents": {
+    "float-menu": "/components/float-menu/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

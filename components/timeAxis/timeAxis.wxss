@@ -1,0 +1,58 @@
+.itemTimeZ{
+  display: flex;
+  flex:1;
+  padding:0px 15px 0 15px;
+}
+.leftView{
+  display: flex;
+  flex-direction: column;
+}
+.roundVIew{
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+  background: red;
+}
+.outRoundVIew{
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+  background: #999;
+}
+.leftLine{
+  display: flex;
+  flex: 1;
+  width: 1px;
+  margin-left: 3.5px;
+  padding-bottom: 6px;
+  background: #DADADA;
+}
+
+.rightContent{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  margin-top: -6px;
+  margin-left: 15px;
+  padding-bottom: 24px;
+
+}
+
+.curentTitle{
+  font-size: 16px;
+  line-height: 22.5px;
+  color:#fe473c
+}
+.curentTime{
+  font-size: 14px;
+  color:#fe473c
+}
+.outTitle{
+  font-size: 16px;
+    line-height: 22.5px;
+  color:#999
+}
+.outTime{
+  font-size: 14px;
+  color:#999
+}

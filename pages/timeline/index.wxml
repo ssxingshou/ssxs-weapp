@@ -1,0 +1,18 @@
+<view class="listview-container">
+  <block wx:for="{{newsList}}" wx:key="">
+    <view class="playlog-item" bindtap="itemTapped">
+      <view class="dotline">
+        <!-- 竖线 -->
+        <view class="line"></view>
+        <!-- 圆点 -->
+        <view class="dot"></view>
+        <!-- 时间戳 -->
+      </view>
+      <view class="content">
+        <text class="course">{{item.time}}</text>
+        <text class="chapter">{{item.content}}</text>
+      </view>
+    </view>
+  </block>
+</view>
+<!--<ad unit-id="adunit-e406b44681194b7e"></ad>-->

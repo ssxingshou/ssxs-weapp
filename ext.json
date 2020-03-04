@@ -1,0 +1,31 @@
+{
+  "extEnable": false,
+  "extAppid": "wxe37d6b81cce73b18",
+  "directCommit": true,
+  "ext": {
+    "name": "wechat",
+    "attr": {
+      "host": "open.weixin.qq.com",
+      "users": [
+        "user_1",
+        "user_2"
+      ]
+    }
+  },
+  "extPages": {
+    "pages/my/index": {
+      "navigationBarTitleText": "会员助手"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "灵兽通会员助手",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": 50
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

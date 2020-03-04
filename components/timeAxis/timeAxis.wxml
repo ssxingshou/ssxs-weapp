@@ -1,0 +1,17 @@
+<view class='itemTimeZ'>
+    <!--  左边 -->
+    <view class='leftView'>
+        <view class='{{isCurent===true?"roundVIew":"outRoundVIew"}}'></view>
+        <view wx:if="{{isShowLeftLine}}" class='leftLine'></view>
+    </view>
+
+    <!-- 右边 -->
+    <view class='rightContent'>
+        <slot name="rightChilren"></slot>
+        <block wx:if="{{textArray.length>0}}">
+            <text wx:for="{{textArray}}" wx:key="unique" class='{{isCurent === true? "curentTitle" : "outTitle"}}'>{{item}}</text>
+        </block>
+        <text wx:if="{{axisTitle!=''}}" class='{{isCurent === true? "curentTitle" : "outTitle"}}'>{{axisTitle}}</text>
+        <text class='{{isCurent === true? "curentTime" : "outTime"}}'>{{axisTime}}</text>
+    </view>
+</view>
